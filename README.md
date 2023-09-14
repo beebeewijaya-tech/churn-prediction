@@ -33,4 +33,15 @@ Install poetry first here https://python-poetry.org/docs/#installation
 poetry install
 
 poetry run streamlit run churn_prediction/cmd/web/main.py
+
+--------
+
+or
+
+--------
+
+can use venv and pip to install
+
+pip3 install -r requirements.txt
+
 ```
