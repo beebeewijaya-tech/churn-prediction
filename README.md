@@ -32,7 +32,7 @@ Install poetry first here https://python-poetry.org/docs/#installation
 
 poetry install
 
-poetry run streamlit run churn_prediction/cmd/web/main.py
+poetry run streamlit run streamlit_app.py
 
 --------
 

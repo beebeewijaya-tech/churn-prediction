@@ -191,11 +191,14 @@ def splitting_train_test(df):
         The purpose of splitting is to able verifying the model performance later.
         
         We will need to separate X and y first.
+        
         X is independent variables or features
+        
         y is dependent variable or target value
         
         
         X = the rest of column, minus Attrition_Flag
+        
         y = Attrition_Flag
     """)
 
