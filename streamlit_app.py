@@ -18,6 +18,16 @@ st.set_page_config(
 
 
 def main():
+    hide_streamlit_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    .styles_terminalButton__JBj5T {visibility: hidden;}
+    </style>
+
+    """
+    st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
     df = pd.read_csv(FILE_PATH + "/churn_prediction/data/raw/BankChurners.csv")
 
     image_path = os.path.join(os.getcwd(), 'churn_prediction/cmd/web/assets/pic.png')
