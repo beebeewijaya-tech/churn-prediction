@@ -22,7 +22,7 @@ def main():
     <style>
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
-    .styles_terminalButton__JBj5T {visibility: hidden;}
+    .stActionButton {visibility: hidden;}
     </style>
 
     """
